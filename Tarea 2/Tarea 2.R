@@ -5,6 +5,10 @@
 #
 ###############################################################################
 
+
+#Working directory
+setwd("C:/Users/Axel Canales/Documents/GitHub/r_cortetransversal_2023/Tarea 2")
+
 #install.packages("ggplot2")
 library(ggplot2)
 library(dplyr)
@@ -12,25 +16,21 @@ library(writexl)
 
 #import and examine data
 
-tarea2 <- read.delim("C:/Users/Axel Canales/Documents/GitHub/r_cortetransversal_2023/LONDON.DAT", sep="")
+tarea2 <- read.delim("C:/Users/Axel Canales/Documents/GitHub/r_cortetransversal_2023/Tarea 2/LONDON.DAT", sep="")
 
 
 #Histogram
 
 wfood_hist <- ggplot(data = tarea2, mapping = aes(x = wfood))  +
-  geom_histogram() +
-  labs(title = "PorciÃ³n (%) del presupuesto dedicada a gastos de alimentaciÃ³n")
+  geom_histogram(binwidth = 1) +
+  labs(title = "Porción (%) del presupuesto dedicada a gastos de alimentación")
 wfood_hist
 
 #Otra opcion: wfood_hist <- hist(tarea2$wfood)
 
 
 #Descriptive statistics
-desc_stat <- descr(tarea2,
-                   headings = FALSE, # remove headings
-                   stats = "common", # most common descriptive statistics
-                   transpose = TRUE
-)
+desc_stat <- summary(tarea2)
 desc_stat
 
 #PDF doc with histogram
