@@ -79,10 +79,8 @@ ggplot(data = datos, mapping = aes(x = totexp, y = wfood)) +
 modelo_2 <- lm(formula =  wfood ~ log(totexp)  + age + nk, data = datos)
 summary(modelo_2)
 
-install.packages('tidyverse')
+
 library(tidyverse)
-install.packages('stargazer')
-install.packages('patchwork')
 library(stargazer)
 library(patchwork)
 library(ggplot2)
@@ -130,7 +128,7 @@ ggplot(data = final_data,
        mapping = aes(x = seq(1:length(fit)),
                      y = fit, color = as.factor(Level))) +
   geom_line()+
-  scale_color_manual( values=c('#009E73', '#D55E00',  '#D52E99'), name='walc', labels=c('Observado', 'Predicho') )
+  scale_color_manual( values=c('#009E73', '#D55E00',  '#D52E99'), name='walc', labels=c('Observado', 'IC lwr', ' IC upr') )
 
 
-#Tarea 4
+save.image(file="Tarea_3_resuelta.RData")

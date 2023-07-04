@@ -53,3 +53,5 @@ mat_cov_matrices <- as.numeric(sigma_cuad_hat)*(solve(t(mat_x)%*%mat_x))
 mat_cov_modelo_1
 
 mat_cov_matrices
+
+save.image(file="Tarea_4_resuelta.RData")

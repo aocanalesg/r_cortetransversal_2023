@@ -11,30 +11,26 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Propuestas de Proyecto final
 
-En el presente informe, se muestran las propuestas para proyecto final. 
+En el prese nte informe, se muestran las propuestas para proyecto final. 
 
 ### Propuesta 1
 
-**Titulo:** Elasticidades ingreso del gasto en educacion en los hogares nicaraguenses.
+**Titulo:** Elasticidades ingreso del gasto en educacion en los hogares nicaraguenses. (BCN documento de trabajo)
 
 **Documento base:** Elasticidad ingreso del gasto sanitario en los hogares nicaragüenses
 
-**Metodologia:** El modelo econométrico de este estudio se estima utilizando Mínimos Cuadrados Ordinarios (MCO) para explicar la relación entre gasto en educación
-e ingreso de los hogares nicaragüenses, asociado a un conjunto de variables explicativas en un modelo de regresión multivariado.
+**Metodologia:** El modelo econométrico de este estudio se estima utilizando Mínimos Cuadrados Ordinarios (MCO) para explicar la relación entre gasto en educación e ingreso de los hogares nicaragüenses, asociado a un conjunto de variables explicativas en un modelo de regresión multivariado.
 
-**Datos necesarios:** Como variables explicativas se incluyen el logaritmo del ingreso, tamaño
-del hogar, escolaridad de jefe de hogar, distancia del hogar al puesto de
-salud más cercano medido en kilómetros y la presencia de mujeres en el
-hogar. 
+**Datos necesarios:** Como variables explicativas se incluyen el logaritmo del ingreso, tamaño del hogar, escolaridad de jefe de hogar, distancia del hogar al puesto de salud más cercano medido en kilómetros y la presencia de mujeres en el hogar. 
 
 ### Propuesta 2
 
-**Titulo:** Elasticidades ingreso del gasto en educacion en los hogares nicaraguenses.
+**Titulo:** Elasticidades tributarias para Costa Rica (NT No. 001 2020)
 
-**Documento base:** Elasticidad ingreso del gasto sanitario en los hogares nicaragüenses
+**Documento base:** Elasticidades tributarias para Costa Rica (Valerie Lankester Campos y
+Kerry Loaiza Marín)
 
 
-**Metodologia:** estimaciones de las elasticidades tributarias de corto y largo plazo, mediante modelos de correccion de error, bajo las siguientes ecuaciones de
-largo plazo
+**Metodologia:** estimaciones de las elasticidades tributarias de corto y largo plazo, mediante modelos de correccion de error, enfocado en las ecuaciones de largo plazo.
 
 **Datos necesarios:** Ingreso corrientes (tributarios), Ingreso no tributarios, transferencias, PIB, base imponible para tipos de impuestos, consumo final, exportaciones e importaciones de bienes y servicios. 
